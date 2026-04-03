@@ -3,6 +3,8 @@ package com.snakegame.teavm;
 import com.github.xpenatan.gdx.teavm.backends.shared.config.AssetFileHandle;
 import com.github.xpenatan.gdx.teavm.backends.shared.config.compiler.TeaCompiler;
 import com.github.xpenatan.gdx.teavm.backends.web.config.backend.WebBackend;
+import com.snakegame.SnakeGame;
+
 import java.io.File;
 import org.teavm.tooling.TeaVMSourceFilePolicy;
 import org.teavm.tooling.sources.DirectorySourceFileProvider;
@@ -21,10 +23,10 @@ public class TeaVMBuilder {
         }
         new TeaCompiler(
             new WebBackend()
-                .setHtmlWidth(800) // Change this to fit your game's requirements.
-                .setHtmlHeight(600) // Change this to fit your game's requirements.
+                .setHtmlWidth(960) 
+                .setHtmlHeight(640)
                 .setHtmlTitle("SnakeGame")
-//                .setWebAssembly(true) // Uncomment this line to use WASM output instead of JavaScript output.
+                .setWebAssembly(true) 
                 .setStartJettyAfterBuild(startJetty)
                 .setJettyPort(8080)
         )
