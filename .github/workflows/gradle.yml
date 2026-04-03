@@ -37,10 +37,10 @@ jobs:
       run: chmod +x ./gradlew
 
     - name: Build with Gradle Wrapper
-      run: ./gradlew html:dist
+      run: ./gradlew teavm:run
 
     - name: Deploy to GitHub Pages
       uses: actions/deploy-pages@v4
       with:
-          folder: html/build/dist
+          folder: teavm/build/dist
           branch: gh-pages
