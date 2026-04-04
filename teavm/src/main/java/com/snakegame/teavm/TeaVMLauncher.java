@@ -10,8 +10,8 @@ import com.snakegame.SnakeGame;
 public class TeaVMLauncher {
     public static void main(String[] args) {
         WebApplicationConfiguration config = new WebApplicationConfiguration("canvas");
-        config.width = 0;
-        config.height = 0;
+        config.width = SnakeGame.LARGURA;
+        config.height = SnakeGame.ALTURA;
         new WebApplication(new SnakeGame(), config);
     }
 }

@@ -23,8 +23,8 @@ public class TeaVMBuilder {
         }
         new TeaCompiler(
             new WebBackend()
-                .setHtmlWidth(960) 
-                .setHtmlHeight(640)
+                .setHtmlWidth(SnakeGame.LARGURA)
+                .setHtmlHeight(SnakeGame.ALTURA)
                 .setHtmlTitle("SnakeGame")
                 .setWebAssembly(true) 
                 .setStartJettyAfterBuild(startJetty)
