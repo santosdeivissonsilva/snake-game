@@ -3,9 +3,15 @@
 Jogo da cobrinha clássico em **Java** com **[libGDX](https://libgdx.com/)** e backend desktop **LWJGL3**.  
 A classic **Snake** game in **Java** using **[libGDX](https://libgdx.com/)** and the **LWJGL3** desktop backend.
 
+**Jogue online · Play online:** [https://santosdeivissonsilva.github.io/snake-game/](https://santosdeivissonsilva.github.io/snake-game/)
+
 ---
 
 ## Português
+
+### Jogar online
+
+O jogo está disponível no navegador em **[https://santosdeivissonsilva.github.io/snake-game/](https://santosdeivissonsilva.github.io/snake-game/)**.
 
 ### O que é este projeto
 
@@ -85,6 +91,10 @@ Projeto base em libGDX; gerado com a ferramenta [gdx-liftoff](https://github.com
 ---
 
 ## English
+
+### Play online
+
+The game is available in the browser at **[https://santosdeivissonsilva.github.io/snake-game/](https://santosdeivissonsilva.github.io/snake-game/)**.
 
 ### What this project is
 
